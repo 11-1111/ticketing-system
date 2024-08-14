@@ -1,0 +1,25 @@
+body {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: url('images/background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff; /* Set text color to white for better visibility */
+}
+
+img {
+    margin-top: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08); /* Improved box shadow for a more subtle effect */
+    transition: transform 0.3s ease; /* Add smooth transition effect */
+}
+
+img:hover {
+    transform: scale(1.05); /* Enlarge image slightly on hover */
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background to make text stand out */
+    padding: 20px;
+    border-radius: 10px;
+}

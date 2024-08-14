@@ -1,0 +1,54 @@
+.buttonn{
+    font-size: 15px;
+    padding: 10px 20px;
+    background-color: #007bff; /* Adjust color as needed */
+    color: #ffffff; /* Adjust color as needed */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+/* Styling for the paragraph */
+.p {
+    
+    
+        font-size: 15px; /* Increased font size */
+        font-weight: bold; 
+        color: #333333;
+        margin-bottom: 5px;
+        margin-top: 25px;
+      }
+      
+    
+  /* Styling for the button */
+ 
+  /* Hover effect for the button */
+  .buttonn:hover {
+    background-color: #0056b3; /* Adjust color as needed */
+  }
+
+  .custom-select {
+    font-size: 16px;
+    padding: 8px 12px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    background-color: #ffffff;
+    color: #495057;
+    outline: none;
+  }
+  
+  .custom-select:hover {
+    border-color: #adb5bd;
+  }
+  
+  .custom-select:focus {
+    border-color: #80bdff;
+  }
+  
+  .custom-select option {
+    font-size: 16px;
+    background-color: #ffffff;
+    color: #495057;
+  }
+  
+  

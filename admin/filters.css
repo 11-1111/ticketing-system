@@ -1,0 +1,32 @@
+/* Apply CSS to align input fields horizontally */
+
+form {
+    display: inline-block;
+}
+
+label,input {
+    display: inline-block;
+            vertical-align: top; /* Align label and input vertically */
+            margin-right: 10px/* Add spacing between labels and input fields */
+}
+
+input {
+    width: 150px; /* Adjust as needed */
+}
+.col {
+    float: left;
+    width: 50%;
+    margin: auto;
+    padding: 0 50px;
+    margin-top: 6px;
+  }
+  .col2 {
+    float: left;
+    width: 50%;
+    margin: auto;
+    padding: 0 50px;
+    margin-top: 6px;
+  }
+  table {
+    border-collapse: collapse;
+  }

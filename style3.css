@@ -1,0 +1,132 @@
+body {
+    background-image: url('images/8.png');
+    background-size: cover; /* This will make the image cover the entire body */
+    background-position: center; 
+}
+.form{
+display: flex;
+flex-direction: column;
+height: 500px;
+width: 400px;
+align-items: center;
+margin: auto;
+ margin-top: 50px;
+ background-color: rgba(0, 0, 0, 0.5);
+ box-shadow: inset -5px -5px rgba(0, 0, 0, 0.5);
+ border-radius:25px;
+
+
+
+
+
+
+}
+
+.area{
+    margin-top: 20px;
+    padding-left: 10px; 
+   /* display: inline-block;*/
+}
+.photo{
+    
+        width: 50%; /* Set the width of the container to 80% of its parent's width */
+        height: auto; /* Set the height of the container to auto to maintain aspect ratio */
+        max-width: 30px; /* Set the maximum width of the container to 500 pixels */
+        max-height: 10px; /* Set the maximum height of the container to 300 pixels */
+    }
+
+
+.from2{
+    font-size: 2rem; /* Adjust font size as needed */
+    color: #ffc61a;
+    padding-left: 10px;
+}
+
+.from3{
+    font-size: 34px; /* Adjust font size as needed */
+    color: white;
+    padding-left: 5px;
+    margin-top: 20px;
+}
+  
+
+.from {
+    font-size: 24px; /* Adjust font size as needed */
+    color: #ffc61a; /* Change color as needed */
+    /* You can add more styles here such as font-family, padding, etc. */
+}
+
+.selection {
+    border: 2px solid #ffc61a; /* Colored border */
+    padding: 8px; /* Add padding to make it look better */
+    font-size: 16px; /* Adjust font size as needed */
+    background-color: white; /* Background color of the dropdown button */
+    color: black; /* Text color */
+    border-radius: 5px; /* Rounded corners */
+    /* You can add more styles here as needed */
+}
+
+
+.selection  {
+    appearance: none; /* Remove default appearance */
+    background-color:transparent; /* Dark background color */
+    color: #fff; /* Text color */
+    padding: 10px; /* Add padding */
+    font-size: 16px; /* Font size */
+    border:2px solid #ffc61a; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Show pointer cursor on hover */
+    width: 200px;
+}
+
+
+
+/* Style the dropdown arrow */
+.selection ::after {
+    content: "\25BC"; /* Unicode character for a downward arrow */
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    pointer-events: none;
+
+    
+}
+
+/* Style the dropdown list */
+.selection option {
+    background-color: #555; /* Dark background color for options */
+    color: #fff; /* Text color for options */
+}
+
+/* Hover effect for options */
+.selection  option:hover {
+    background-color: #777; /* Darker background color on hover */
+}
+
+.selection:focus {
+    border-bottom-color: #0056b3; /* Change bottom border color on focus */
+}
+
+.spacer {
+    display: inline-block; /* Ensure the spacer is treated as an inline element */
+    width: 100px; /* Adjust the width of the spacer to create the desired space */
+  }
+
+  .area .submit_btn{
+        width: 100%;
+        height: 45px;
+        background: #ffc61a;
+        box-shadow: 0 0 10px #ffc61a;
+        border: none;
+        outline: none;
+        border-radius: 40px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+        cursor: pointer;
+        font-size: 16px;
+        color:#333;
+        font-weight: 600;
+
+  }
+
+  

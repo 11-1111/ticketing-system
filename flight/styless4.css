@@ -1,0 +1,138 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+
+
+    body{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        margin:0;
+        padding:0;
+        background-image: url('images/background.png');
+        background-position: center;
+            background-size: cover;
+
+    }
+
+    .wrapper{
+        position: relative;
+        width: 420px;
+        background:transparent;
+         box-shadow: 0 0 50px #9f926b; 
+        color: #fff;
+        border-radius: 10px;
+        padding:30px 40px;
+        
+    }
+
+    .form-wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width:100%;
+        height: 100%;
+
+    }
+    
+    .wrapper h1 {
+font-size: 36px;
+text-align: center;
+
+    }
+   .wrapper .input-box{
+        position: relative;
+        width: 100;
+        height: 50px;
+        margin: 30px 0;
+        border-bottom: 2px solid #fff;
+    
+    }
+    .input-box label{
+        position:absolute;
+        top:50%;
+        left:5px;
+        transform:translateY(-50%);
+        font-size: 16px;
+        color:#fff;
+        pointer-events: none;
+        transition: .5s;
+    }
+
+    .input-box input{
+        width:320px;
+        height: 50px;
+        background: transparent;
+        border:none;
+        outline:none;
+       /* border: 2px solid rgba(255, 255, 255, .2);*/
+        border-radius: 40px;
+        font-size: 16px;
+        color:#fff;
+        padding:0 5px;
+       outline:none;
+
+    }
+    
+    .input-box input:focus~label,
+    .input-box input:valid~label{
+top: -5px;
+    }
+
+.input-box i{
+    position:absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.forgot a{
+    color: #fff;
+    text-decoration: none;
+    font-weight:200; 
+}
+.forgot a:hover{
+    text-decoration: underline;
+}
+.wrapper .btn {
+    width: 100%;
+    height: 45px;
+    background: #ffc61a;
+    box-shadow: 0 0 10px #ffc61a;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color:#333;
+    font-weight: 600;
+}
+.wrapper .sign{
+font-size: 14.5px;
+ text-align: center;
+ margin: 20px 0 15px;
+
+}
+.sign p{
+    color:#fff
+}
+.sign p a {
+    color:#ffc61a;
+    text-decoration: none;
+    font-weight:500;
+}
+ .sign p a:hover{
+    text-decoration: underline;
+ }
+
+ 
+
+
+    
+

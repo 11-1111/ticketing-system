@@ -1,0 +1,11 @@
+body {
+    background-color: #f5f5f5; /* Replace background.jpg with your image path */
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Ensure full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
